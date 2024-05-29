@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="index.css">
+
+<!--- box icons link --->
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+<!-- google font link-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2? familly=Poppins:wght@300;400;500;600;700;800;900&display=swap">
+
+
+<title>Login</title>
+</head>
+<body>
+
+      <div class="container">
+		<div class="main-box">
+			<h1>Log IN</h1>
+			<form action="Login" method="post">
+				<div class='input-box'>
+					<span class="icon"> 
+						<i class='bx bxs-envelope'></i>
+					</span> <input type="email" name="email" required>
+					<label>Email</label>
+				</div>
+
+				<div class='input-box'>
+					<span class="icon"> 
+						<i class='bx bxs-lock-alt'></i>
+					</span> 
+					<input type="password" name="password" required>
+					<label>Password</label>
+				</div>
+				<div class="check">
+					<label> 
+						<input type="checkbox">Remember me 
+					</label>
+					<a href="#">Forget Password</a>
+				</div>
+				
+				<button type="submit" class="btn">Login</button>
+				
+				<div class="register">
+					<p>Don't have an account?<a href="SignUp.html" class="register-link">Sign Up!</a></p>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>

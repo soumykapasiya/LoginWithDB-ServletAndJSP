@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="SignUp.css">
+
+<!--- box icons link --->
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+<!-- google font link-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2? familly=Poppins:wght@300;400;500;600;700;800;900&display=swap">
+
+
+<title>Sign Up!</title>
+</head>
+<body>
+	<div class="container">
+		<div class="main-box">
+			<h1>Sign Up</h1>
+			<form action="SignUp" method="post">
+				<div class="input-box">
+					<input type="text" name="name" required>
+					<label>Name</label>
+				</div>
+				<div class="input-box">
+					<span class="icon"> 
+						<i class='bx bxs-envelope'></i>
+					</span>
+					<input type="email" name="email" required>
+					<label>Email</label>
+				</div>
+				<div class="input-box">
+					<span class="icon"> 
+						<i class='bx bxs-lock-alt'></i>
+					</span> 
+					<input type="password" name="password" required>
+					<label>Password</label>
+				</div>
+				<div class="input-box">
+					<span class="icon"> 
+						<i class='bx bxs-lock-alt'></i>
+					</span> 
+					<input type="password" name="cpassword" required>
+					<label>Confirm Password</label>
+				</div>
+				
+				<button type="submit" class="btn">Sign Up</button>
+				
+				<div class="login">
+					<p>Already have an account?<a href="index.html" class="login-link">Login!</a></p>
+				</div>
+				
+			</form>
+		</div>
+	</div>
+</body>
+</html>
